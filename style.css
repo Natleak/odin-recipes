@@ -1,0 +1,14 @@
+body {
+    line-height: 1.5;
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #040704;
+}
