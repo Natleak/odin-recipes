@@ -1,14 +1,58 @@
 body {
+    margin: 0;
     line-height: 1.5;
     background-color: antiquewhite;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
 }
 
 body a{
     text-decoration: none;
 }
 
-a:hover{
+.recipe-link a:hover{
     background-color: #040704;
+    color: white;
+}
+
+.ingredient-list{
+    margin-left:35%;
+    text-align:left;
+    list-style: none;
+    list-style-position: outside;
+    width: 25em;
+    max-width: 90%;
+}
+
+.step-list{
+    margin:auto;
+    text-align:left;
+    list-style-position: outside;
+    width: 35rem;
+    max-width: 90%;
+}
+
+.menu-button{
+    background-color: #5847f3;
+    padding: 0.4em 0.5em;
+    width: max-content;
+    color: white;
+    margin: 4% auto;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.menu-button a{
+    padding: 0.5em;
+}
+.menu-button a:visited{
+    color: white;
+}
+.menu-button a:hover{
+    color: rgb(148, 214, 17);
+}
+
+.recipe{
+    font-size: 20px;
 }
